@@ -47,4 +47,4 @@ INSERT INTO roles (title, salary, department_id)
 Value("Marketer", 700000.00, 5), ("Secretary", 700000.00, 5), ("CEO", 600000.00, 5), ("Assistant", 1000.00, 5);
 
 INSERT INTO employees (first_name, last_name, role_id, manager_id)
-Value("Lawrence", "Rush", 16, null), ("Meera", "Dubey", 1, NULL)
+Value("Lawrence", "Rush", 16, null), ("Meera", "Dubey", 1, 1), ("Dee", "Sanchez", 5, 1), ("Dillion", "Duchois", 8, 1 ), ("Casey", "Nuget", 2,2)

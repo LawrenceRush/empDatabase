@@ -10,7 +10,7 @@ return inquirer
       name: 'whatTheyWannaDo',
       message: "What would you like to do?",
       choices: ["View Employees", "View Employees by Manager", "View Employees by department",
-       "Add employee", "Update employee", "Update Employee Mananger",
+       "Add Employee", "Update Employee", "Update Employee Mananger",
     "Update Employee Role", "View all roles", "View all departments"]
     },
   ])
