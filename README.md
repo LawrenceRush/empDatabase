@@ -1,5 +1,6 @@
 # empDatabase
 
+<img src="/daGif/empDatabase.gif" width="700" height="450" />
 Company Type
 
 Role List

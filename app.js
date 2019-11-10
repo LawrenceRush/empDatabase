@@ -43,7 +43,7 @@ async function startHerUp() {
                     // Log all results of the SELECT statement
                     const transformed = res.reduce((acc, { id, ...x }) => { acc[id] = x; return acc }, {})
                     console.table(transformed);
-                    connection.end();
+                    startHerUp()
                 });
             break;
         case "View Employees by Manager":
@@ -52,7 +52,7 @@ async function startHerUp() {
                     
                     console.table(empByManager);
                   } finally {
-                    connection.end();
+                    startHerUp()
                   }
                
             break;
@@ -62,7 +62,7 @@ async function startHerUp() {
                     
                     console.table(empByDep);
                   } finally {
-                    connection.end();
+                    startHerUp()
                   }
             break;
         case "Add Employee":
